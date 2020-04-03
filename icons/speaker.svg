@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>speaker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M34,17 C34,26.388672 26.388672,34 17,34 C7.611328,34 0,26.388672 0,17 C0,7.611328 7.611328,0 17,0 C26.388672,0 34,7.611328 34,17 Z" id="path-1"></path>
+    </defs>
+    <g id="speaker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <path d="M8,13.920346 L8,20.0777 L12,20.0777 L17,25.208829 L17,8.789217 L12,13.920346 L8,13.920346 Z M21.5,16.999023 C21.5,15.182603 20.48,13.622739 19,12.863332 L19,21.124451 C20.48,20.375307 21.5,18.815443 21.5,16.999023 Z M19,7.999023 L19,10.113048 C21.89,10.995602 24,13.745887 24,16.999023 C24,20.252159 21.89,23.002443 19,23.884998 L19,25.999023 C23.01,25.065156 26,21.391269 26,16.999023 C26,12.606777 23.01,8.932888 19,7.999023 Z" id="Fill-555" fill="#FFFFFF"></path>
+            <g id="Group-558">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-557"></g>
+                <path d="M32,17 C32,25.284271 25.284271,32 17,32 L17,36 C27.49341,36 36,27.49341 36,17 L32,17 Z M17,32 C8.715729,32 2,25.284271 2,17 L-2,17 C-2,27.49341 6.50659,36 17,36 L17,32 Z M2,17 C2,8.715729 8.715729,2 17,2 L17,-2 C6.50659,-2 -2,6.50659 -2,17 L2,17 Z M17,2 C25.284271,2 32,8.715729 32,17 L36,17 C36,6.50659 27.49341,-2 17,-2 L17,2 Z" id="Fill-556" fill-opacity="0.96" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
