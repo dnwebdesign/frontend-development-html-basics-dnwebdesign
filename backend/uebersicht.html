@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        media="screen" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"
+        href="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/styles/cda-base.css" media="screen" />
+    <title>Adminbereich</title>
+</head>
+
+<body>
+    <header class="header-bg">
+        <nav>
+            <ul>
+                <li><a href="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/index.html">Tour</a>
+                </li>
+                <li><a href="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/index.html"><img
+                            src="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/icons/pin.svg"
+                            alt="Anpinnen"></a></li>
+                <li><a href="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/index.html"><img
+                            src="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/icons/help.svg"
+                            alt="Hilfe"></a></li>
+                <li><a
+                        href="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/backend/uebersicht.html"><img
+                            src="G:/mi/frontdev/github/frontend-development-html-basics-dnwebdesign/icons/settings.svg"
+                            alt="Einstellungen"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <div class="grid-1">
+                    <div class="grid-item">
+                        <h1>Martyrium des hl. Erasmus</h1>
+                        <h2>Abbildung vom Gemälde</h2>
+                    </div>
+                </div>
+                <div class="grid-2">
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/200" alt="Martyrium des hl. Erasmus - Abbildung vom Gemälde">
+                    </div>
+                    <div class="grid-item">
+                        <fieldset>
+                            <label>
+                                <input type="text">
+                                Bilddatei
+                            </label>
+                            <input type="file">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-item">
+                        <h2>Allgemeine Daten</h2>
+                    </div>
+                </div>
+                <div class="grid-2">
+                    <div class="grid-item">                        
+                        <fieldset>
+                            <label>
+                                Datierung
+                                <input type="text">                                
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">
+                        <fieldset>
+                            <label>
+                                Eigentümer
+                                <input type="text">
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">
+                        <fieldset>
+                            <label>
+                                Besitzer
+                                <input type="text">
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">
+                        <fieldset>
+                            <label>
+                                Standort
+                                <input type="text">
+                            </label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="grid-1">
+                    <div class="grid-item">
+                        <h2>Weitere Informationen</h2>
+                    </div>
+                </div>
+                <div class="grid-2">
+                    <div class="grid-item">
+                        <fieldset>
+                            <label>
+                                <textarea></textarea>
+                                Maße
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">                        
+                        <fieldset>
+                            <label>
+                                <textarea></textarea>
+                                Kurzbeschreibung
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">                        
+                        <h2>Status</h2>
+                        <fieldset>
+                            <input type="radio" name="status" id="radio-status-visible" value="visible">
+                            <label for="radio-status-visible">sichtbar</label>
+                            <input type="radio" name="status" id="radio-status-invisible" value="invisible">
+                            <label for="radio-status-invisible">nicht sichtbar</label>
+                        </fieldset>
+                    </div>
+                    <div class="grid-item">                        
+                        <h2>Zuordnung Tour</h2>
+                        <fieldset>
+                            <select>
+                                <option selected>Staatsgalerie im Schloss Johannisburg</option>
+                                <option>Frankfurt, Städel Museum</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="grid-1">
+                    <div class="grid-item">                        
+                        <fieldset>
+                            <input type="submit" id="save-drawing" value="Speichern">
+                            <input type="reset" id="delete-drawing" value="Gemälde löschen">
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="grid-1">
+                <div class="grid-item">                    
+                    <h1>Gemäldeübersicht</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bezeichnung</th>
+                                <th>Datierung</th>
+                                <th>Tour</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Martyrium des hl. Erasmus</td>
+                                <td>1516</td>
+                                <td>Staatsgalerie im Schloss Johannisburg</td>
+                            </tr>
+                            <tr>
+                                <td>Prager Retabel [Mitteltafel, Fragment]: Hl. Margaretha</td>
+                                <td>kurz nach 1520</td>
+                                <td>Staatsgalerie im Schloss Johannisburg</td>
+                            </tr>
+                            <tr>
+                                <td>Hl. Hieronymus</td>
+                                <td>um 1520</td>
+                                <td>Staatsgalerie im Schloss Johannisburg</td>
+                            </tr>
+                            <tr>
+                                <td>Triptychon mit der Heiligen</td>
+                                <td>1509</td>
+                                <td>Frankfurt, Städel Museum</td>
+                            </tr>
+                            <tr>
+                                <td>Triptychon mit der Heiligen Sippe [Mitteltafel]</td>
+                                <td>1509</td>
+                                <td>Frankfurt, Städel Museum</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="button" id="add-drawing" value="Gemälde hinzufügen">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
