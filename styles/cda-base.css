@@ -19,8 +19,16 @@ h3{
 .subtitle{
     font-size:16px;
 }
+
 .header-bg{
     background-color:#FFCC00
+}
+header{
+    width:100%;
+    float:left
+}
+header ul li{
+    float:left;
 }
 .grid-1,.grid-2{
     display: grid;
@@ -37,4 +45,7 @@ h3{
 }
 .grid-item {
     padding:20px;
+}
+.grid-item img{
+    width:100%;
 }
