@@ -34,7 +34,7 @@ header ul li{
     display: grid;
     grid-gap: 20px;
     margin: 20px;
-    width:375px;
+    width:100%;
     margin:auto;
 }
 .grid-1{
