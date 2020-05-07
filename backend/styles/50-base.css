@@ -1,0 +1,22 @@
+body{
+    font-family: var(--primary-font);
+    font-size:16px;
+}
+h1{
+    font-size:31.5px;
+}
+h2{
+    font-size:25px;
+}
+h3{
+    font-family: var(--primary-font);
+    font-size:20px;
+    line-height:120%;
+}
+h1,h2, .subtitle{
+    font-family: var(--primary-font);
+    line-height:120%;
+}
+.subtitle{
+    font-size:16px;
+}
