@@ -56,6 +56,34 @@ nav ul li a:hover{
 .grid__item img{
     width:100%;
 }
+.grid__item__inner{
+    background-color:#fff;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.grid__item__inner a{
+    color:#000;
+    text-decoration: none;
+}
+.grid__item__inner img,
+.grid__item__inner .grid__item__text{
+    float:left;
+}
+.grid__item__inner img{
+    width:30%;
+}
+.grid__item__inner .grid__item__text{
+    width:66%;
+    padding:2%;
+}
+.grid__item__inner .grid__item__text h1{
+    font-size:28px;
+    margin-bottom: 10px;
+}
+.grid__item__inner .grid__item__text .grid__item__date{
+    font-weight: 600;
+    margin-bottom:10px
+}
 table{
     margin-bottom:10px;
 }
