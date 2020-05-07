@@ -20,7 +20,7 @@ h3{
     font-size:16px;
 }
 
-.header-bg{
+.header{
     background-color:#FFCC00
 }
 header{
@@ -30,23 +30,23 @@ header{
 header ul li{
     float:left;
 }
-.grid-1,.grid-2{
+.grid_1,.grid_2{
     display: grid;
     grid-gap: 20px;
     margin: 20px;
     width:100%;
     margin:auto;
 }
-.grid-1{
+.grid_1{
     grid-template-columns: 100%;
 }
-.grid-2 {
+.grid_2 {
     grid-template-columns: 50% 50%;
 }
-.grid-item {
+.grid__item {
     padding:20px;
 }
-.grid-item img{
+.grid__item img{
     width:100%;
 }
 table{
