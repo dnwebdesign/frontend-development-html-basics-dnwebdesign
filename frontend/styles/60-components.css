@@ -3,14 +3,15 @@ header{
     width:100%;
     height:50px;
     padding: 10px 20px;
+    margin-bottom:20px;
 }
-.header{
+header.header{
     background-color: var(--primary-color);
 }
 header ul li{
     float:left;
 }
-header, main{
+header .header__inner, main{
     max-width: 1000px;
     margin:auto;
 }
@@ -49,9 +50,6 @@ nav ul li a:hover{
 }
 .grid_2 {
     grid-template-columns: 50% 50%;
-}
-.grid__item {
-    padding:20px;
 }
 .grid__item img{
     width:100%;
@@ -95,4 +93,20 @@ table tr td{
     text-align:left;
     padding:10px;
     border:1px solid #000;
+}
+.button-floating{
+    position:fixed;
+    left:50%;
+    bottom:5%;
+    width:150px;
+    margin-left:-75px;
+    border:0;
+    border-radius:30px;
+    background-color: var(--primary-color);
+    padding:20px;
+}
+.button-floating a{
+    color:#000;
+    text-decoration: none;
+    padding:2px;
 }
