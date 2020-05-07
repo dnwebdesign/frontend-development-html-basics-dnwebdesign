@@ -1,13 +1,41 @@
 
 header{
     width:100%;
-    float:left
+    height:50px;
+    padding: 10px 20px;
 }
 .header{
     background-color: var(--primary-color);
 }
 header ul li{
     float:left;
+}
+header, main{
+    max-width: 1000px;
+    margin:auto;
+}
+.logo{
+    float:left;
+}
+.logo__first-span{
+    font-size:14px;
+}
+.logo__second-span{
+    font-size:20px;
+}
+nav{
+    float:right;
+}
+nav ul li a{
+    color:#000;
+    text-decoration: none;
+    line-height:1.6;
+    padding:10px 10px;
+    float:left;
+}
+nav ul li a:hover{
+    color:#000;
+    text-decoration: none;
 }
 .grid_1,.grid_2{
     display: grid;
