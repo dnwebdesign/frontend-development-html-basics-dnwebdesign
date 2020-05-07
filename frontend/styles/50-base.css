@@ -1,0 +1,18 @@
+h1{
+    font-size:31.5px;
+}
+h2{
+    font-size:25px;
+}
+h3{
+    font-family: 'IBM Plex Sans Bold', sans-serif;
+    font-size:20px;
+    line-height:120%;
+}
+h1,h2, .subtitle{
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height:120%;
+}
+.subtitle{
+    font-size:16px;
+}
