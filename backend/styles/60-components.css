@@ -2,15 +2,16 @@
 header{
     width:100%;
     height:50px;
-    padding: 10px 20px;
+    padding: 10px 0;
+    margin-bottom:20px;
 }
-.header{
+header.header{
     background-color: var(--primary-color);
 }
 header ul li{
     float:left;
 }
-header, main{
+header .header__inner, main{
     max-width: 1000px;
     margin:auto;
 }
@@ -50,11 +51,36 @@ nav ul li a:hover{
 .grid_2 {
     grid-template-columns: 50% 50%;
 }
-.grid__item {
-    padding:20px;
-}
 .grid__item img{
     width:100%;
+}
+.grid__item__inner{
+    background-color:#fff;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.grid__item__inner a{
+    color:#000;
+    text-decoration: none;
+}
+.grid__item__inner img,
+.grid__item__inner .grid__item__text{
+    float:left;
+}
+.grid__item__inner img{
+    width:30%;
+}
+.grid__item__inner .grid__item__text{
+    width:66%;
+    padding:2%;
+}
+.grid__item__inner .grid__item__text h1{
+    font-size:28px;
+    margin-bottom: 10px;
+}
+.grid__item__inner .grid__item__text .grid__item__date{
+    font-weight: 600;
+    margin-bottom:10px
 }
 table{
     margin-bottom:10px;
@@ -67,4 +93,20 @@ table tr td{
     text-align:left;
     padding:10px;
     border:1px solid #000;
+}
+.button-floating{
+    position:fixed;
+    left:50%;
+    bottom:5%;
+    width:150px;
+    margin-left:-75px;
+    border:0;
+    border-radius:30px;
+    background-color: var(--primary-color);
+    padding:20px;
+}
+.button-floating a{
+    color:#000;
+    text-decoration: none;
+    padding:2px;
 }
