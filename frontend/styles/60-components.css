@@ -4,7 +4,7 @@ header{
     float:left
 }
 .header{
-    background-color:#FFCC00
+    background-color: var(--primary-color);
 }
 header ul li{
     float:left;
